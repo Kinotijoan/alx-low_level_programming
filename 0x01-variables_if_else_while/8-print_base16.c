@@ -6,7 +6,6 @@
  */
 int main(void)
 {
-	
 	int ch = 'a';
 	int i = '0';
 

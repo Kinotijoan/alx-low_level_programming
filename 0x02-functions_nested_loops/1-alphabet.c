@@ -1,20 +1,16 @@
 #include "main.h"
-
 /**
- * print_alphabet - Entrypoint
- * Description: prints the alphabet in lower case followed by
- * a new line
- * Return: void
+ *print_alphabet - Prints the alphabet in lowercase using putchar only once
+ *
+ *
+ *Return: Always zero
  */
-
 void print_alphabet(void)
 {
-	int ch = 'a';
-
-	for (; ch <= 'z'; ch++)
-	{
-		_putchar(ch);
-	}
-	_putchar('\n');
-
+char c;
+for (c = 'a'; c <= 'z'; c++)
+{
+_putchar(c);
+}
+_putchar('\n');
 }

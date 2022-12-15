@@ -1,15 +1,11 @@
 #include <stdio.h>
-
 /**
- * main - Entrypoint
- * Description: prints putchar and returns o
- * printf - function that prints characters or strings
- * Return: always (0) success
+ *main - Prints putchar
+ *
+ *Return: Always zero
  */
-
 int main(void)
 {
-
-	printf("_putchar\n");
-	return (0);
+printf("_putchar\n");
+return (0);
 }
